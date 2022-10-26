@@ -18,7 +18,7 @@ Exactly the same as the Shell but limited to a specific use-case. In our case, w
 
 Learning Objectives:
 
-    > General:
+    General:
 
         - How to create a Python package
 
