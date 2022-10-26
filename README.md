@@ -3,7 +3,7 @@
 
 Description:
 
-Exactly the same as the Shell project but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
+Exactly the same as the Shell but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
 
         - Create a new object (ex: a new User or a new Place)
 
@@ -46,7 +46,7 @@ Execution:
 
         $ ./console.py
         (hbnb) help
-        
+
 
 Documented commands (type help <topic>):
 ========================================
