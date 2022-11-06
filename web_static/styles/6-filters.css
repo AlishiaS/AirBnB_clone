@@ -1,0 +1,107 @@
+.filters {
+    color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+}
+
+section.filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: 0;
+    border-radius: 4px;
+    margin: auto 30px;
+}
+
+section.filters button:hover {
+    opacity: 90%;
+}
+
+section.filters div.locations, section.filters div.amenities{
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+section.filters div.amenities{
+    margin-right: auto;
+}
+ 
+section.filters div.locations{
+    border-right: 1px solid #DDDDDD;
+}
+
+div.locations h3, div.amenities h3{
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-left: 50px;
+    color: #000000;
+}
+
+div.locations h4, div.amenities h4{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 4px auto;
+    margin-bottom: 16px;
+    margin-left: 50px;
+    color: #000000;
+}
+
+ul.popover{
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    list-style: none;
+    background-color: #FAFAFA;
+}
+
+div.locations ul, div.amenities ul{
+    display: none;
+}
+
+section.filters div.locations:hover > ul,
+section.amenities div.amenities:hover > ul{
+    z-index: 999;
+    display: block;
+}
+
+section.filters div.locations, section.filters div.amenities{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+div.locations ul.popover{
+    padding-bottom: 45px;
+}
+
+div.locations ul.popover li h2{
+    font-size: 18px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 4px;
+    padding-left: 35px;
+}
+
+div.locations ul.popover li h2.California{
+    margin-top: 30px;
+}
+
+div.locations ul.popover li p, div.amenities ul.popover li p{
+    margin: 6px;
+    padding-left: 50px;
+    color: #000000;
+}
