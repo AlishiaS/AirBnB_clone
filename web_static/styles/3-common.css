@@ -6,3 +6,12 @@ body
         font-size: 14px;
         font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     }
+
+header, footer{
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+footer{
+    border-top: 1px solid #CCCCCC;
+}

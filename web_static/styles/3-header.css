@@ -6,12 +6,7 @@ header
     border-bottom: 1px solid #CCCCCC;
 }
 
-header.logo 
-    {
-        background-image: url('../images/logo.png');
-        align-self: left;
-        height: 60px;
-        width: 142px;
-        position: absolute;
-        margin-left: 20px;
+header.logo{
+    margin-left: 20px;
+    color: white;
 }
